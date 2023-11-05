@@ -1,5 +1,5 @@
 <?php
-$to = 'your_email@gmail.com'; // Receiver Email ID, Replace with your email ID
+$to = 'nihalvarshney666@gmail.com'; // Receiver Email ID, Replace with your email ID
 $subject = 'Contact Us Form Submission'; // Replace with your $subject
 $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
 $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
